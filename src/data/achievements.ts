@@ -16,6 +16,16 @@ export type Achievement = {
 export const achievements: Achievement[] = [
   {
     id: 1,
+    title: "Winner – Venture Further Awards UK 2025",
+    type: "competition",
+    year: "2025",
+    description:
+      "Our AI-powered dementia prevention program offers free cognitive training for seniors, while generating valuable market data. The revenue from data sales is reinvested into local senior employment projects",
+    icon: Trophy,
+    image: "/imgs/a7.jpeg",
+  },
+  {
+    id: 2,
     title: "Top 4 Finalist – Venture Further Awards UK",
     type: "competition",
     year: "2025",
@@ -25,7 +35,7 @@ export const achievements: Achievement[] = [
     image: "/imgs/a1.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Bicentenary Global Futures Award",
     type: "academic",
     year: "2024",
@@ -35,7 +45,7 @@ export const achievements: Achievement[] = [
     image: "/imgs/a6.jpg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Technical Speaker – AI & Cloud Workshops",
     type: "workshop",
     year: "2023",
@@ -45,7 +55,7 @@ export const achievements: Achievement[] = [
     image: "/imgs/a3.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Technical Head – Google DSC",
     type: "leadership",
     year: "2023–2024",
@@ -55,7 +65,7 @@ export const achievements: Achievement[] = [
     image: "/imgs/a4.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Department Rank Holder – 3 Years",
     type: "academic",
     year: "2021–2024",
